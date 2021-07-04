@@ -46,6 +46,12 @@ h1, h2, h3, h4 {
   display: block;
   text-align: center;
 }
+.background--one .block-section--one img {
+  transition: all 0.2s linear;
+}
+.background--one .block-section--one img:hover {
+  width: 350px !important;
+}
 .background--one .block-section--one h1 {
   font-weight: 400;
   font-size: 22px;
@@ -56,7 +62,7 @@ h1, h2, h3, h4 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 120vh;
 }
 .background--two .footer-contain {
   background-color: transparent;
@@ -77,6 +83,49 @@ h1, h2, h3, h4 {
 }
 .background--two .block-section--two .text-block--two img {
   margin: 90px 0 0 90px;
+}
+
+.background--error {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top center;
+}
+.background--error h1 {
+  font-size: 30px;
+}
+.background--error h1, .background--error h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.background--error img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .background--two {
+    height: 1200px !important;
+  }
+  .background--two img {
+    display: block;
+    margin: 0 auto;
+  }
+  .background--two .block-section--two {
+    display: grid;
+    max-height: 80%;
+    padding-top: 40px;
+  }
+  .background--two .block-section--two .text-block--two {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .background--two .footer-contain {
+    margin-top: 0 !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
