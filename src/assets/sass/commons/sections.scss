@@ -1,13 +1,57 @@
 .section{
-  height: 100vh;
+  //height: 100vh;
   width: 100%;
 
 }
+
 .background--one{
-  background-size: contain;
-  background-position: right center;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & .block-section--one{
+    width: 100%;
+    display: block;
+    text-align: center;
+
+    & h1 {
+      font-weight: 400;
+      font-size: 22px;
+      margin-bottom: 32px;
+    }
+  }
 }
+
 .background--two{
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;  
+
+  .footer-contain{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: calc(10px - 190px);
+  }
+
+  & .block-section--two{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+
+    & .text-block--two{
+      width: 40%;
+      text-align: right;
+      & img{
+        margin: 90px 0 0 90px;
+      }
+    }
+  }
+ 
 }
