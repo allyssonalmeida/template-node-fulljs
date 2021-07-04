@@ -1,4 +1,5 @@
 # Gama Academy :)
+
 ## Template Node FullJS
 
 Para iniciar o projeto:
@@ -14,4 +15,10 @@ Para iniciar em modo de desenvolvimento:
 
 Para instalar o node [clique aqui](https://nodejs.org/en/)
 
+## Arquitetura de Componentes:
+
+` |src -> `
+
 ## Professor Douglas Morais
+
+## Projeto desenvolvido como parte do treinamento Hiring Coders da Gama Academy em parceira com a VTEX
